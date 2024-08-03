@@ -35,7 +35,7 @@ You can return the answer in any order.
 <table>
   <tr>
     <th>Author</th>
-    <th>Speed(s)</th>
+    <th>Speed(ms)</th>
     <th>Memory(MB)</th>
   </tr>
   <tr>
