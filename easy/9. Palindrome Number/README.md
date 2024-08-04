@@ -41,9 +41,9 @@ Given an integer ```x```, return ```true``` if ```x``` is a
     <td>8.14</td>
   </tr>
   <tr>
-    <td>null</td>
-    <td>null</td>
-    <td>null</td>
+    <td>Vincss</td>
+    <td>0</td>
+    <td>7.99</td>
   </tr>
   <tr>
     <td>null</td>
@@ -61,3 +61,5 @@ Given an integer ```x```, return ```true``` if ```x``` is a
 ### Analysis
 1. APT 
 ![img](img/apt.png)
+2. Vincss
+![img](img/Vincss.png)
