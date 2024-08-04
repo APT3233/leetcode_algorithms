@@ -63,3 +63,5 @@ Given an integer ```x```, return ```true``` if ```x``` is a
 ![img](img/apt.png)
 2. Vincss
 ![img](img/Vincss.png)
+3. Rio
+![img](img/rio.png)
