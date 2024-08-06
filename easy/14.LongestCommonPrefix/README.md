@@ -2,34 +2,27 @@
 
 ## Question
 
-Given an array of integers <code>nums</code> and an integer <code>target</code>, return indices of the two numbers such that they add up to <code>target</code>.
+Write a function to find the longest common prefix string amongst an array of strings.
 
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-
-You can return the answer in any order.
+If there is no common prefix, return an empty string "".
 
 ## Example
 
 - Example 1:
 
-    * Input: nums = [2,7,11,15], target = 9
-    * Output: [0,1]
-    * Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+  * Input: strs = ["flower","flow","flight"]
+  * Output: "fl"
 - Example 2:
 
-    * Input: nums = [3,2,4], target = 6
-    * Output: [1,2]
-- Example 3:
-
-    * Input: nums = [3,3], target = 6
-    * Output: [0,1]
+  * Input: strs = ["dog","racecar","car"]
+  * Output: ""
+  * Explanation: There is no common prefix among the input strings.
 
 ## Constraints:
 
-    2 <= nums.length <= 104
-    -109 <= nums[i] <= 109
-    -109 <= target <= 109
-    Only one valid answer exists.
+    1 <= strs.length <= 200
+    0 <= strs[i].length <= 200
+    strs[i] consists of only lowercase English letters.
 
 ### Rutime
 <table>
@@ -45,9 +38,9 @@ You can return the answer in any order.
     <td>7.88</td>
   </tr>
   <tr>
-    <td>null</td>
-    <td>null</td >
-    <td>null</td>
+    <td>APT</td>
+    <td>0</td >
+    <td>11.26</td>
   </tr>
   <tr>
     <td>...</td>
@@ -60,3 +53,5 @@ You can return the answer in any order.
 ### Analysis
 1. Rio 
 ![im](img/rio.png)
+2. APT
+![img](img/apt.png)
