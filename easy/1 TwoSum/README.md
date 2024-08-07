@@ -54,9 +54,9 @@ You can return the answer in any order.
     <td>8.52</td>
   </tr>
   <tr>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
+    <td>thang</td>
+    <td>45</td>
+    <td>44.69</td>
   </tr>
 </table>
 
@@ -68,3 +68,5 @@ You can return the answer in any order.
 ![im](img/rio.png)
 3.Bao
 ![im](img/bao.png)
+4.Thang
+![im](img/svhb.png)
