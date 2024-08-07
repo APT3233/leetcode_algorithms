@@ -29,8 +29,8 @@ Output: false
 
 ## Constraints:
 
-1 <= s.length <= 104
-s consists of parentheses only '()[]{}'.
+    1 <= s.length <= 104
+    s consists of parentheses only '()[]{}'.
 
 ### Rutime
 <table>
@@ -46,9 +46,9 @@ s consists of parentheses only '()[]{}'.
     <td>49.78</td>
   </tr>
   <tr>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
+    <td>APT</td>
+    <td>11</td>
+    <td>11.75</td>
   </tr>
 </table>
 
@@ -56,3 +56,5 @@ s consists of parentheses only '()[]{}'.
 ### Analysis
 1. Rio 
 ![im](img/rio.png)
+2. APT
+![img](img/apt.png)
