@@ -56,9 +56,9 @@ Given a roman numeral, convert it to an integer.
     <td>11.65</td>
   </tr>
   <tr>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
+    <td>Dung</td>
+    <td>20</td>
+    <td>17.8</td>
   </tr>
 </table>
 
@@ -68,3 +68,5 @@ Given a roman numeral, convert it to an integer.
 ![im](img/rio.png)
 2. APT
 ![img](img/apt.png)
+3. Dung
+![img](img/dung.png)
