@@ -46,9 +46,9 @@ Given an integer ```x```, return ```true``` if ```x``` is a
     <td>7.99</td>
   </tr>
   <tr>
-    <td>null</td>
-    <td>null</td >
-    <td>null</td>
+    <td>Dung</td>
+    <td>7</td >
+    <td>8.34</td>
   </tr>
   <tr>
     <td>...</td>
@@ -65,3 +65,5 @@ Given an integer ```x```, return ```true``` if ```x``` is a
 ![img](img/Vincss.png)
 3. Rio
 ![img](img/rio.png)
+4. Dung
+![img](img/Dung.png)
