@@ -1,3 +1,7 @@
+/*
+    Vector C++
+*/
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>

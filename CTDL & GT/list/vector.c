@@ -1,3 +1,7 @@
+/*
+    Vector C
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -67,7 +71,6 @@ void* vector_find(vector* v, void* value) {
     }
     return NULL;
 }
-
 void vector_print(vector* v, void (* print_func)(void*)){
     for(int i = 0; i < v->length; i++){
         print_func((char*)v->arr + i * v->element_size);

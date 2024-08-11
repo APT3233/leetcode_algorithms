@@ -1,3 +1,7 @@
+/*
+    Linked List C++
+*/
+
 #include <iostream>
 #include <string.h>
 
