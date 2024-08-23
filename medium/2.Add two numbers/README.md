@@ -43,10 +43,17 @@ You can return the answer in any order.
     <td>1</td >
     <td>44.58</td>
   </tr>
+  <tr>
+    <td>APT</td>
+    <td>16</td >
+    <td>77.6</td>
+  </tr>
 </table>
 
 
 ### Analysis
 1. Rio 
 ![im](img/rio.png)
+2. APT
+![img](img/apt.png)
 
