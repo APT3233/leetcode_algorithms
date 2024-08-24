@@ -38,8 +38,8 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
         if(node->next != NULL){
             minHeap[heapSize++] = node->next;
             qsort(minHeap, heapSize, sizeof(struct ListNode*), cmp);
-        }
-        free(minHeap); 
-        return dummy.next;
+        }   
     }
+    free(minHeap); 
+    return dummy.next;
 }
