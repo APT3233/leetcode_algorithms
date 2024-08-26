@@ -52,10 +52,16 @@ Merge all the linked-lists into one sorted linked-list and return it.
     <td>7</td >
     <td>18.46</td>
   </tr>
+    <tr>
+    <td>Rio</td>
+    <td>82</td >
+    <td>44.74</td>
+  </tr>
 </table>
 
 
 ### Analysis
 1. APT
 ![img](img/apt.png)
-
+2. Rio
+![img](img/rio.png)
