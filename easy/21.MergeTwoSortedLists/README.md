@@ -43,9 +43,9 @@ Both list1 and list2 are sorted in non-decreasing order.
     <td>42.39</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>APT</td>
+    <td>0</td>
+    <td>10.50</td>
   </tr>
 </table>
 
@@ -53,4 +53,6 @@ Both list1 and list2 are sorted in non-decreasing order.
 ### Analysis
 1. Rio 
 ![im](img/rio.png)
+2. 
+![img](img/apt.png)
 

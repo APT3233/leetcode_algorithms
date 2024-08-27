@@ -32,8 +32,8 @@ Output: [1]
   </tr>
   <tr>
     <td>APT</td>
-    <td>NULL</td >
-    <td>NULL</td>
+    <td>1</td >
+    <td>8.9</td>
   </tr>
 </table>
 
