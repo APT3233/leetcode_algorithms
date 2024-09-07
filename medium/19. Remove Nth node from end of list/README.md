@@ -26,7 +26,7 @@ Output: [1]
     0 <= Node.val <= 100
     1 <= n <= sz
 
-### Rutime
+### Runtime
 
 <table>
   <tr>

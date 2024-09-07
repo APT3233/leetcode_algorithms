@@ -33,7 +33,7 @@ n == nums.length
 nums[i] is either 0, 1, or 2.
 
 
-### Rutime
+### Runtime
 
 <table>
   <tr>
