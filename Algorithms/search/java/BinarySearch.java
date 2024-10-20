@@ -1,6 +1,9 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class BinarySearch {
+
+     private static final Random rand = new Random();
 
     public static void generateElement(int nums[], int sizeOfArr) {
         for (int i = 0; i < sizeOfArr; i++) {
@@ -38,14 +41,35 @@ public class BinarySearch {
         }
         return res;
     }
-    public static void swap(int a, int b){
-        int tmp = a;
-        a = b;
-        b = tmp;
+  
+    public static void QuickSort(int nums[], int left, int right){
+        if(left < right){
+            int pivotIndex = partition(nums, left, right);
+
+            QuickSort(nums, left, pivotIndex - 1);
+            QuickSort(nums, pivotIndex + 1, right);
+        }
     }
 
-    public static void QuickSort(int nums[], int low, int high){
+    public static int partition(int nums[], int left, int right){
+        int pivotIndex = left;
+        int pivotVal = nums[pivotIndex];
+        int storeIndex  = left +1;
 
+        for(int i = left +1; i <= right; i++){
+            if(nums[i] < pivotVal || nums[i] == pivotVal && rand.nextBoolean()){
+                swap(nums, i, storeIndex);
+                storeIndex++;
+            }
+           
+        }
+        swap(nums, pivotIndex, storeIndex-1);
+        return storeIndex - 1;
+    }
+    private static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 
     public static int binarySearch(int nums[], int target) {
@@ -69,21 +93,18 @@ public class BinarySearch {
         int nums[] = new int[numsSize];
         generateElement(nums, numsSize);
         System.out.println("Array after generation: ");
-        displayArr(nums);
-        System.out.println("quick sort: ");
-        // QuickSort(nums);
-        System.out.println("after sort: ");
+        QuickSort(nums, 0, nums.length - 1); //sorted list for binarySearch
         displayArr(nums);
 
-        // int target = getValue("Enter number to find: ");
+        int target = getValue("Enter number to find: ");
 
         System.out.println("-----------------");
 
-        // int res = binarySearch(nums, target);
-        // if (res == -1) {
-        //     System.out.println("Not found!");
-        // } else {
-        //     System.out.println("Found at index: " + res);
-        // }
+        int res = binarySearch(nums, target);
+        if (res == -1) {
+            System.out.println("Not found!");
+        } else {
+            System.out.println("Found at index: " + res);
+        }
     }
 }
