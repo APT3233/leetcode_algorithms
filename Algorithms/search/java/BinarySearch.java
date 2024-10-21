@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class BinarySearch {
 
-     private static final Random rand = new Random();
+    private static final Random rand = new Random();
 
     public static void generateElement(int nums[], int sizeOfArr) {
         for (int i = 0; i < sizeOfArr; i++) {
