@@ -1,5 +1,4 @@
 
-
 public class QuickSort {
 
     public static void generateElement(int nums[], int sizeOfArr) {
@@ -32,8 +31,6 @@ public class QuickSort {
 
         int pivotIndex = (low + high) / 2;
         int pivotVal = nums[pivotIndex];
-        // System.out.println("pivot = " + pivotIndex);
-        // System.out.println("pivot Value = " + pivotVal);
 
         swap(nums, pivotIndex, low);
 
